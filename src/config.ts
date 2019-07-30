@@ -36,10 +36,10 @@ export type Config = {
 export class ConfigManager {
     public static config: Config = {
         datastoreCache: false,
-        timeout: 10000,
+        timeout: 20000,
         port: '3000',
-        width: 1000,
-        height: 1000,
+        width: 1024,
+        height: 960,
     };
 
     static async getConfiguration(): Promise<Config> {
